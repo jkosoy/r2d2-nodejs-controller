@@ -87,7 +87,7 @@ fs.readdir(config['sounds'].directory, function(err,list) {
 	for(var i=0;i<list.length;i++) {
 		var filename = list[i];
 
-		if(filename != ".DS_Store") {
+		if(filename.charAt(0) != ".") {
 			audioFiles.push(__dirname + "/" + config['sounds'].directory + "/" + list[i]);		
 		}
 	}
