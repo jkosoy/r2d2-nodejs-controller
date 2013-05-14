@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<title>R2D2</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	
+		<link rel="stylesheet" type="text/css" href="./css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="./css/r2d2.css" />
+		<link rel="apple-touch-icon" href="./apple-touch-icon.png"/>
+
+		<script type="text/javascript" src="./js/modernizr.js"></script>
+		<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="./socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="./js/r2d2.js"></script>
+	</head>
+
+	<body>
+		<h1>R2D2 Controller</h1>
+
+		<div id="steering">
+			<h2>Steering</h2>
+
+			<p>Press a button to move the R2. Let go to stop.</p>
+
+			<a href="#" data-direction="forward">Forward</a>
+			<a href="#" data-direction="backward">Backward</a>
+			<a href="#" data-direction="left">Left</a>
+			<a href="#" data-direction="right">Right</a>
+		</div>
+
+		<div id="sound">
+			<h2>Sound</h2>
+
+			<p>Tap to play a sound.</p>
+
+			<a href="#">Play Random Sound</a>
+		</div>
+	</body>
+</html>

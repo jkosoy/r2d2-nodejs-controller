@@ -1,0 +1,63 @@
+@font-face {
+	font-family: Droid;
+	src: url('../ttf/DroidSansMono.ttf')
+}
+
+/* -------------------------------- */
+body {
+	font-family: Droid,sans-serif;
+
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+}
+
+h1 {
+	font-size:1.3em;
+	background: #939498;
+	color:white;
+	margin-bottom:0px;
+	font-weight: bold;
+	border-radius:25px 25px 0 0;
+	text-align: center;
+	padding:15px 5px 10px 5px;
+}
+
+h2 {
+	text-align: center;
+	padding:5px 2px;
+	font-size:1.1em;
+	background: #bbbcc8;
+	color:black;
+}
+
+p {
+	font-size:0.8em;
+	margin:5px 0;
+	text-align: center;
+}
+
+a {
+	display: block;
+	width:80%;
+	margin:10px auto;
+	text-align: center;
+	text-decoration: none;
+	background:#283890;
+	color:white;
+	padding:15px 0;
+	border-radius:25px;
+
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+}
+
+a:active {
+	background:#2b4062;
+
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+}
+
+div {
+	margin:5px 0;
+}
